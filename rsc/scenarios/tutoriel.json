@@ -1,0 +1,82 @@
+{
+  "story_id": "000000",
+  "name": "Aventure Tutorielle",
+  "text": "blablabla",
+  "choices": [
+    {
+      "num": 1,
+      "text_choice": "blablabla1",
+      "text": "blablabla",
+      "choices": [
+        {
+          "num": 1,
+          "text_choice": "blablabla1.1",
+          "text": "blablabla",
+          "choices": []
+        },
+        {
+          "num": 2,
+          "text_choice": "blablabla1.2",
+          "text": "blablabla",
+          "choices": []
+        },
+        {
+          "num": 3,
+          "text_choice": "blablabla1.3",
+          "text": "blablabla",
+          "choices": []
+        }
+      ]
+    },
+    {
+      "num": 2,
+      "text_choice": "blablabla1",
+      "text": "blablabla",
+      "choices": [
+        {
+          "num": 1,
+          "text_choice": "blablabla2.1",
+          "text": "blablabla",
+          "choices": []
+        },
+        {
+          "num": 2,
+          "text_choice": "blablabla2.2",
+          "text": "blablabla",
+          "choices": []
+        },
+        {
+          "num": 3,
+          "text_choice": "blablabla2.3",
+          "text": "blablabla",
+          "choices": []
+        }
+      ]
+    },
+    {
+      "num": 3,
+      "text_choice": "blablabla1",
+      "text": "blablabla",
+      "choices": [
+        {
+          "num": 1,
+          "text_choice": "blablabla3.1",
+          "text": "blablabla",
+          "choices": []
+        },
+        {
+          "num": 2,
+          "text_choice": "blablabla3.2",
+          "text": "blablabla",
+          "choices": []
+        },
+        {
+          "num": 3,
+          "text_choice": "blablabla3.3",
+          "text": "blablabla",
+          "choices": []
+        }
+      ]
+    }
+  ]
+}
