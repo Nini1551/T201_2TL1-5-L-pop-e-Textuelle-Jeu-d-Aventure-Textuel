@@ -1,0 +1,21 @@
+{
+  "lib": "Introduction",
+  "text": "Ceci est une introduction. \nSi si je te jure !\n",
+  "choices": [
+    {
+      "lib": "Choix 1",
+      "text": "Ceci est le premier choix. \nSi si je te jure !\n",
+      "choices": []
+    },
+    {
+      "lib": "Choix 2",
+      "text": "Ceci est le deuxième choix. \nSi si je te jure !\n",
+      "choices": []
+    },
+    {
+      "lib": "Choix 3",
+      "text": "Ceci est le troisième choix. \nSi si je te jure !\n",
+      "choices": []
+    }
+  ]
+}
