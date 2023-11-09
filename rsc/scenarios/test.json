@@ -1,21 +1,77 @@
 {
   "lib": "Introduction",
-  "text": "Ceci est une introduction. \nSi si je te jure !\n",
+  "text": "Bonjour à toi apprenti mage !\n Tu as été élu pour retrouver le grimoire magique engloutis de NeverLand. Tu t’appelles… Ah non en faite je vais te donner un nom ce sera encore plus simple, tu t’appelleras donc Sacha. Tu vis donc dans ce joli royaume dans lequel règne rigolade et humour mais aussi horreurrrr… brrr ça donne des frissons ; Même si ta quête sera semée d’embuche il te faudra être fort en faisant des choix (difficile). Le premier s’offre déjà à toi. Te voici dans la tanière d’un Troll qui détenais le doudou de ta petite sœur jusqu’à ce que tu le réduise en charpie. Il te faut donc en sortir.\n Pour commencer, veux-tu : \n",
   "choices": [
     {
       "lib": "Choix 1",
-      "text": "Ceci est le premier choix. \nSi si je te jure !\n",
-      "choices": []
+      "text": "1)	Manger une cuisse du Troll que tu viens d’abattre sans pitié parce que se battre ça donne quand même faim ?\n",
+      "choices": [
+        {
+          "lib": "Choix 1",
+          "text": "Ceci est le premier choix. \nSi si je te jure !\n",
+          "choices": []
+        },
+        {
+          "lib": "Choix 2",
+          "text": "Ceci est le deuxième choix. \nSi si je te jure !\n",
+          "choices": []
+        },
+        {
+          "lib": "Choix 3",
+          "text": "Ceci est le troisième choix. \nSi si je te jure !\n",
+          "choices": []
+        }
+      ]
     },
     {
       "lib": "Choix 2",
-      "text": "Ceci est le deuxième choix. \nSi si je te jure !\n",
-      "choices": []
+      "text": "2)	Sortir par la sortie principale parce que c’est ce que toute personne de censée et logique ferait ?\n",
+      "choices": [
+    {
+      "lib": "Choix 1",
+      "text": "Ceci est le premier choix. \nSi si je te jure !\n",
+      "choices": [
+        {
+          "lib": "Choix 1",
+          "text": "Ceci est le premier choix. \nSi si je te jure !\n",
+          "choices": []
+        },
+        {
+          "lib": "Choix 2",
+          "text": "Ceci est le deuxième choix. \nSi si je te jure !\n",
+          "choices": []
+        },
+        {
+          "lib": "Choix 3",
+          "text": "Ceci est le troisième choix. \nSi si je te jure !\n",
+          "choices": []
+        }
+      ]
     },
     {
       "lib": "Choix 3",
-      "text": "Ceci est le troisième choix. \nSi si je te jure !\n",
-      "choices": []
+      "text": "3)	Te téléporter à ta hutte parce qu’en soit tu fais ce que tu veux tu es mage, la magie n’a pas de secret pour toi ?\n",
+      "choices": [
+    {
+      "lib": "Choix 1",
+      "text": "Ceci est le premier choix. \nSi si je te jure !\n",
+      "choices": [
+        {
+          "lib": "Choix 1",
+          "text": "Ceci est le premier choix. \nSi si je te jure !\n",
+          "choices": []
+        },
+        {
+          "lib": "Choix 2",
+          "text": "Ceci est le deuxième choix. \nSi si je te jure !\n",
+          "choices": []
+        },
+        {
+          "lib": "Choix 3",
+          "text": "Ceci est le troisième choix. \nSi si je te jure !\n",
+          "choices": []
+        }
+      ]
     }
   ]
 }
