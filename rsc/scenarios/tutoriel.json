@@ -1,0 +1,69 @@
+{
+  "lib": "Introduction menant au premier choix",
+  "text": "Bonjour à toi apprenti mage ! Tu as été élu pour retrouver le grimoire magique engloutis de NeverLand. \nTu t’appelles… Ah non en faite je vais te donner un nom ce sera encore plus simple, tu t’appelleras donc Sacha. \nTu vis donc dans ce joli royaume dans lequel règne rigolade et humour mais aussi horreurrrr… brrr ça donne des frissons. \nMême si ta quête sera semée d’embuche il te faudra être fort en faisant des choix (difficile). Le premier s’offre déjà à toi. \nTe voici dans la tanière d’un Troll qui détenais le doudou de ta petite sœur jusqu’à ce que tu le réduise en charpie. Il te faut donc en sortir. \nPour commencer, veux-tu :\n",
+  "choices": [
+    {
+      "lib": "Manger une cuisse du Troll que tu viens d’abattre sans pitié parce que se battre ça donne quand même faim ?",
+      "text": "Tu as bien mangé et tu es rassasié mais désormais tu te sens lourd pour te lancer directement dans une quête longue et périlleuse. \nTu vois alors à ta gauche non loin de ton gourdin une sorte de sac bien remplis. \nTa curiosité irrésistible te fait avancer et ouvrir le sac tout en le saisissant. \nTu y vois pleins de choses intéressante tel qu’un livre poussiéreux, une sorte d’anneau et une clé. \nQue prends tu ?\n",
+      "choices": [
+        {
+          "lib": "Le livre poussiéreux car tu es maniaque et tu déteste voir de la poussière sur un objet précieux.",
+          "text": "",
+          "choices": []
+        },
+        {
+          "lib": "L’anneau car tu le trouve joli et que tu as déjà 9 bagues il t’en manque plus qu’une pour tes dix doigts.",
+          "text": "",
+          "choices": []
+        },
+        {
+          "lib": "Les clés parce que tu viens de te rappeler que ta petite sœur est venue jusqu’ici avec le bolide de papa et maman, le carrosse.",
+          "text": "",
+          "choices": []
+        }
+      ]
+    },
+    {
+      "lib": "Sortir par la sortie principale parce que c’est ce que toute personne de censée et logique ferait ?",
+      "text": "Très bon choix ! Vous voilà donc sortis de cette tanière immonde qui servait de maison a ce Troll pas si méchant finalement. \n*Trop tard on ne sait plus revenir en arrière*. \nVous marchez vers la forêt car ta sœur ne se rappelle pas où elle a laissé les clés du carrosse de papa et maman. \nSur votre chemin vous trouvez alors un champignon aussi grand qu’une maison, qui vous interpelle «Où allez-vous comme ça larbins de Neverland ?» \nC’est alors que tu lui réponds :\n",
+      "choices": [
+        {
+          "lib": " la vérité : «Je cherche a entré en contact avec Ezekiel Le Grand, sur le dos d’un Troll était indiqué comme quoi il est ici»",
+          "text": "",
+          "choices": []
+        },
+        {
+          "lib": "le mensonge : «On se baladais tranquillement avec mes parents mais soudain on s’est perdus»",
+          "text": "",
+          "choices": []
+        },
+        {
+          "lib": "l’ignorance : «Et toi qu’est tu donc ? Tu ressemble à ce que je mange habituellement tous les vendredis soir… en plus laid»",
+          "text": "",
+          "choices": []
+        }
+      ]
+    },
+    {
+      "lib": "Te téléporter à ta hutte parce qu’en soit tu fais ce que tu veux tu es mage, la magie n’a pas de secret pour toi ?",
+      "text": "Ah là on bien dans son petit nid douillet ! À l’abri de tout danger et de toutes embrouilles. \nÀ peine rentré tu décide de mettre ton nouveau trophée venant du combat avec le Troll, tu le pose sur la cheminée à côté de toutes les centaines d’autres. \nC’est alors que tu remarques que ton horloge magique n’est plus à l’heure… \nIntrigué, tu t’en approche et :\n",
+      "choices": [
+        {
+          "lib": "Trébuche sur le tapis mal aplati à cause de l’espace-temps ralentis. ",
+          "text": "",
+          "choices": []
+        },
+        {
+          "lib": "Te fais aspirer par l’urne de tes grands parents qui se trouve sur la cheminée.",
+          "text": "",
+          "choices": []
+        },
+        {
+          "lib": "Te rends compte qu’il est juste l’heure d’aller dormir et que ton horloge JAMAIS ne se dérèglerait. ",
+          "text": "",
+          "choices": []
+        }
+      ]
+    }
+  ]
+}
