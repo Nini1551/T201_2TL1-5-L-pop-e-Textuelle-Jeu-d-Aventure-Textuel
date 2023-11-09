@@ -7,6 +7,8 @@ Le prototype vous permet de parcourir une aventure tutorielle afin de bien compr
 
 ## Mode d'emploi
 Pour lancer l'aventure, il suffit de lancer le script principal du projet.  
+> python ./main.py
+
 Durant l'aventure, des textes de narrations vous seront présentés suivis d'une liste numérotée des choix qui vous sont permis. Pour sélectionner un choix, le joueur doit entrer le numéro correspondant à celui-ci.  
   
-Amusez-vousb bien et n'hésitez pas à recommencer plusieurs fois l'aventure afin de découvrir tous les choix possibles.  
+Amusez-vous bien et n'hésitez pas à recommencer plusieurs fois l'aventure afin de découvrir tous les choix possibles.  
