@@ -51,7 +51,7 @@ class Aventure:
                 if answer not in range(len(choices)):
                     raise ValueError
             except ValueError:
-                print("Insérez un nombre entier valide !")
+                print("\nInsérez un nombre entier valide !")
                 answer = -1
 
         self.__main_choice = choices[answer]

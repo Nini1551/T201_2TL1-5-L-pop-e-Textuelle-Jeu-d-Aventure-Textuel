@@ -7,6 +7,6 @@ from lib.structures.scenario import Aventure
 
 
 if __name__ == '__main__':
-    path_scenario = './rsc/scenarios/test.json'
+    path_scenario = './rsc/scenarios/tutoriel.json'
     aventure = Aventure(path_scenario)
     aventure.run()
