@@ -1,66 +1,66 @@
 {
   "lib": "Introduction menant au premier choix",
-  "text": "Bonjour à toi apprenti mage ! Tu as été élu pour retrouver le grimoire magique engloutis de NeverLand. \nTu t’appelles… Ah non en faite je vais te donner un nom ce sera encore plus simple, tu t’appelleras donc Sacha. \nTu vis donc dans ce joli royaume dans lequel règne rigolade et humour mais aussi horreurrrr… brrr ça donne des frissons. \nMême si ta quête sera semée d’embuche il te faudra être fort en faisant des choix (difficile). Le premier s’offre déjà à toi. \nTe voici dans la tanière d’un Troll qui détenais le doudou de ta petite sœur jusqu’à ce que tu le réduise en charpie. Il te faut donc en sortir. \nPour commencer, veux-tu :\n",
+  "text": "Bonjour à toi, apprenti mage ! Tu as été élu pour retrouver le grimoire magique englouti de NeverLand. Tu t’appelles… Ah non en fait, je vais te donner un nom, ce sera encore plus simple, tu t’appelleras donc Sacha. Tu vis donc dans ce joli royaume dans lequel règne rigolade et humour, mais aussi horreur... brrr, ça donne des frissons. Même si ta quête sera semée d’embûches, il te faudra être fort en faisant des choix (difficiles). Le premier s’offre déjà à toi. Te voici dans la tanière d’un Troll qui détenait le doudou de ta petite sœur jusqu’à ce que tu le réduises en charpie. Il te faut donc en sortir. \nPour commencer, veux-tu :\n",
   "choices": [
     {
       "lib": "Manger une cuisse du Troll que tu viens d’abattre sans pitié parce que se battre ça donne quand même faim ?",
-      "text": "Tu as bien mangé et tu es rassasié mais désormais tu te sens lourd pour te lancer directement dans une quête longue et périlleuse. \nTu vois alors à ta gauche non loin de ton gourdin une sorte de sac bien remplis. \nTa curiosité irrésistible te fait avancer et ouvrir le sac tout en le saisissant. \nTu y vois pleins de choses intéressante tel qu’un livre poussiéreux, une sorte d’anneau et une clé. \nQue prends tu ?\n",
+      "text": "Tu as bien mangé et tu es rassasié, mais désormais tu te sens lourd pour te lancer directement dans une quête longue et périlleuse. Tu vois alors à ta gauche non loin de ton gourdin une sorte de sac bien rempli. Ta curiosité irrésistible te fait avancer et ouvrir le sac tout en le saisissant.\n Tu y vois plein de choses intéressantes telles qu’un livre poussiéreux, une sorte d’anneau et une clé.  \nQue prends tu ?\n",
       "choices": [
         {
-          "lib": "Le livre poussiéreux car tu es maniaque et tu déteste voir de la poussière sur un objet précieux.",
-          "text": "",
+          "lib": "Le livre poussiéreux car tu es maniaque et tu détestes voir de la poussière sur un objet précieux.",
+          "text": "Te voilà en possession d’un livre bien poussiéreux. Tu l’ouvres et te rends compte qu’il n’y a rien d’écrit dedans… à part en tout petit à la dernière page… \n Eh oui c’est un Death Note.\n Te voilà MOOOOORT !\n",
           "choices": []
         },
         {
-          "lib": "L’anneau car tu le trouve joli et que tu as déjà 9 bagues il t’en manque plus qu’une pour tes dix doigts.",
-          "text": "",
+          "lib": "L’anneau car tu le trouves joli et que tu as déjà 9 bagues, il t’en manque plus qu’une pour tes dix doigts.",
+          "text": "Oh tiens la jolie bague ! Elle est tellement grande qu’elle peut se mettre autour du bras comme un bracelet ou même autour du cou comme un collier.\n Mais c’est qu’elle serre quand même fort… \n*Bruit d’étouffement*\n Au… se… cou… *crrric*\n",
           "choices": []
         },
         {
           "lib": "Les clés parce que tu viens de te rappeler que ta petite sœur est venue jusqu’ici avec le bolide de papa et maman, le carrosse.",
-          "text": "",
+          "text": "Tu prends les clés et te rends compte qu’en réalité ce sont les clés du carrosse de papa et maman qui est juste devant la maison du Troll.\n Tu décides donc de partir en carrosse pour aller à la forêt.\n Hélas j’oubliais de te rappeler que tu ne sais pas conduire un tel bolide et le crash est inévitable… \nOn se rappellera de toi comme on se rappellera du Troll que tu as abattu lâchement !\n",
           "choices": []
         }
       ]
     },
     {
       "lib": "Sortir par la sortie principale parce que c’est ce que toute personne de censée et logique ferait ?",
-      "text": "Très bon choix ! Vous voilà donc sortis de cette tanière immonde qui servait de maison a ce Troll pas si méchant finalement. \n*Trop tard on ne sait plus revenir en arrière*. \nVous marchez vers la forêt car ta sœur ne se rappelle pas où elle a laissé les clés du carrosse de papa et maman. \nSur votre chemin vous trouvez alors un champignon aussi grand qu’une maison, qui vous interpelle «Où allez-vous comme ça larbins de Neverland ?» \nC’est alors que tu lui réponds :\n",
+      "text": "Très bon choix ! Vous voilà donc sortis de cette tanière immonde qui servait de maison à ce Troll pas si méchant finalement. \n*Trop tard on ne sait plus revenir en arrière*.\n Vous marchez vers la forêt car ta sœur ne se rappelle plus où elle a laissé les clés du carrosse de papa et maman.\n Sur votre chemin vous trouvez alors un champignon aussi grand qu’une maison, qui vous interpelle « Où allez-vous comme ça, larbins de Neverland ? » c’est alors que tu lui réponds :\n",
       "choices": [
         {
-          "lib": " la vérité : «Je cherche a entré en contact avec Ezekiel Le Grand, sur le dos d’un Troll était indiqué comme quoi il est ici»",
-          "text": "",
+          "lib": "la vérité : « Je cherche à entrer en contact avec Ezekiel Le Grand, sur le dos d’un Troll était indiqué comme quoi il est ici ».",
+          "text": "Le champignon géant vous prend alors tous deux dans ses mains et énonce « C’est l’heure d’applaudir pour cette bonne blague… » \n*bruit de craquement d’os comme des branches d’arbres* \n(c’est vous qui craquez si vous n’aviez pas fait le rapprochement.)\n",
           "choices": []
         },
         {
-          "lib": "le mensonge : «On se baladais tranquillement avec mes parents mais soudain on s’est perdus»",
-          "text": "",
+          "lib": "le mensonge : « On se baladait tranquillement avec mes parents mais soudain on s’est perdus ».",
+          "text": "Le champignon géant vous indique alors avec son grand bras une direction et vous dit de la prendre en ligne droite et sans vous arrêter.\n Vous exécutez donc ses paroles… mais il a oublié de vous dire qu’il y avait une falaise mortelle au bout… \n*cri s’éloignant et s’éteignant en même temps que le son sourd de deux corps s’écrasant par terre*\n",
           "choices": []
         },
         {
-          "lib": "l’ignorance : «Et toi qu’est tu donc ? Tu ressemble à ce que je mange habituellement tous les vendredis soir… en plus laid»",
-          "text": "",
+          "lib": "l’ignorance : « Et toi qu’est-ce donc ? Tu ressembles à ce que je mange habituellement tous les vendredis soir… en plus laid ».",
+          "text": "Le champignon susceptible comme jamais, s’énerve alors et vous balaye d’un coup de main violent. \nVous vous accrochez tant bien que mal aux branches que vous traversez à une vitesse folle…\n Un tronc d’arbre vient finalement stopper votre course… \n Et vos misérables vies par la même occasion.\n",
           "choices": []
         }
       ]
     },
     {
-      "lib": "Te téléporter à ta hutte parce qu’en soit tu fais ce que tu veux tu es mage, la magie n’a pas de secret pour toi ?",
-      "text": "Ah là on bien dans son petit nid douillet ! À l’abri de tout danger et de toutes embrouilles. \nÀ peine rentré tu décide de mettre ton nouveau trophée venant du combat avec le Troll, tu le pose sur la cheminée à côté de toutes les centaines d’autres. \nC’est alors que tu remarques que ton horloge magique n’est plus à l’heure… \nIntrigué, tu t’en approche et :\n",
+      "lib": "Te téléporter à ta hutte parce qu’en soi tu fais ce que tu veux, tu es mage, la magie n’a pas de secret pour toi ?",
+      "text": "Ah là, on est bien dans son petit nid douillet ! À l’abri de tout danger et de toutes embrouilles.\n À peine rentré, tu décides de mettre ton nouveau trophée venant du combat avec le Troll, tu le poses sur la cheminée à côté de toutes les centaines d’autres. \nC’est alors que tu remarques que ton horloge magique n’est plus à l’heure… \nIntrigué, tu t’en approches et :\n",
       "choices": [
         {
-          "lib": "Trébuche sur le tapis mal aplati à cause de l’espace-temps ralentis. ",
-          "text": "",
+          "lib": "Trébuches sur le tapis mal aplati à cause de l’espace-temps ralenti.",
+          "text": "C’est alors que dans ta chute interminable se trouvait un couteau par terre\n malheureusement pas rangé dans le tiroir vaisselle… \n Ta vie se termine alors en un bain de sang bêtement démarré à cause d’un vulgaire couteau de cuisine...\n",
           "choices": []
         },
         {
-          "lib": "Te fais aspirer par l’urne de tes grands parents qui se trouve sur la cheminée.",
-          "text": "",
+          "lib": "Te fais aspirer par l’urne de tes grands-parents qui se trouve sur la cheminée.",
+          "text": "C’est alors que tu ouvres les yeux et vois tes grands-parents autour de toi…\n Oui tu es bien dans l’haut de là !\n",
           "choices": []
         },
         {
-          "lib": "Te rends compte qu’il est juste l’heure d’aller dormir et que ton horloge JAMAIS ne se dérèglerait. ",
-          "text": "",
+          "lib": "Te rends compte qu’il est juste l’heure d’aller dormir et que ton horloge JAMAIS ne se dérèglerait.",
+          "text": "Le temps se fige au moment où tu t’installes bien confortablement dans ton lit douillet… \n Le temps ne se remettra jamais en route…",
           "choices": []
         }
       ]
