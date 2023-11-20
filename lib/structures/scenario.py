@@ -30,6 +30,7 @@ class Aventure:
 
     def __str__(self) -> str:
         """
+        PRE : -
         POST: Retourne une chaine de caractère comprenant :
               - le texte de narration du choix actuel suivi d'un passage à la ligne.
               - une liste numérotée des libellés des sous-choix du choix actuel.
@@ -39,48 +40,52 @@ class Aventure:
             to_display += f"{i+1}. {choice[self.LIB_TAG]}\n"
         return to_display[:-1]
 
-    def set_new_choice(self):
+    def get_new_choice(self, choice_id: str) -> dict:
         """
+        PRE : -
         Affiche l'état actuel de l'aventure.
         Demande au joueur de choisir, en fonction de la liste numérotée des sous-choix, quel choix il veut faire.
         Le programme repose la question si le joueur ne rentre pas un entier valide et l'avertit s'il ne rentre pas un nombre.
-        POST: Change le choix actuel pour le sous-choix sélectionné par le joueur.
+        PRE: - choice_id : une chaîne de caractère correspondant à l'identifiant d'un des sous-choix du choix actuel de l'aventure.
+        POST: Renvoie le choix actuel pour le sous-choix sélectionné par le joueur.
         """
-        error_value = -1
-        error_message = "Insérez un nombre entier valide !"
-        prompt = '>>> '
-
-        print(self)
-
         choices = self.__main_choice[self.CHOICES_TAG]
-        answer = error_value
-        while answer == error_value:
-            answer = input(prompt)
-            try:
-                answer = int(answer) - 1
-                if answer not in range(len(choices)):
-                    raise ValueError
-            except ValueError:
-                print(f"\n{error_message}")
-                answer = error_value
+        choice_id = int(choice_id) - 1
+        if choice_id not in range(len(choices)):
+            raise ValueError
 
-        self.__main_choice = choices[answer]
+        return choices[choice_id]
 
     def is_final_choice(self) -> bool:
         """
+        PRE : -
         POST: Renvoie si le choix actuel est un choix final, c'est à dire s'il a lui-même un ou plusieurs sous-choix.
         """
         return not len(self.__main_choice[self.CHOICES_TAG])
 
     def run(self):
         """
+        PRE : -
         Permet au joueur de partir à l'aventure tant que celui-ci peut encore faire des choix.
         Quand ce n'est plus le cas, affiche un message de félicitations.
         POST: Parcoure le scénario de l'aventure jusqu'à ce que le joueur ne puisse plus faire de choix.
         """
         congratulations_message = "Félicitations ! Vous avez terminé l'aventure. \nN'hésitez pas à redémarrer le programme pour tester les autres choix disponibles !"
+        error_value = -1
+        error_message = "Insérez un nombre entier valide !"
+        prompt = '>>> '
 
         while not self.is_final_choice():
-            self.set_new_choice()
+            print(self)
+
+            answer = error_value
+            while answer == error_value:
+                answer = input(prompt)
+                try:
+                    self.__main_choice = self.get_new_choice(answer)
+                except ValueError:
+                    print(f"\n{error_message}")
+                    answer = error_value
+
         print(self)
         print(congratulations_message)
