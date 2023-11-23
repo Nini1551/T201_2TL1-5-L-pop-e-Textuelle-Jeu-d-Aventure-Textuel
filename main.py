@@ -5,10 +5,29 @@ Lorsqu'il termine, le joueur est félicité et est invité à recommencer l'aven
 
 Auteurs : 2TL1-5
 """
+import argparse
+from lib.structures.gui import GuiApp
 from lib.structures.scenario import Aventure
 
-
 if __name__ == '__main__':
-    path_scenario = './rsc/scenarios/tutoriel.json'
-    aventure = Aventure(path_scenario)
-    aventure.run()
+    DEFAULT_PATH = './rsc/scenarios/tutoriel.json'
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        'path_scenario',
+        help='le chemin du fichier JSON du scénario',
+        nargs='?',
+        default=DEFAULT_PATH
+    )
+    parser.add_argument(
+        '--gui',
+        help='Exécute le programme via une interface graphique utilisateur.',
+        action='store_true'
+    )
+    args = parser.parse_args()
+
+    aventure = Aventure(args.path_scenario)
+    if args.gui:
+        GuiApp(aventure).run()
+    else:
+        aventure.run()
