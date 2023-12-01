@@ -1,14 +1,7 @@
-"""
-En tant que joueur débutant ou chevronné, Partez à l'aventure.
-Le joueur va parcourir l'aventure tutorielle jusqu'à ce qu'il finisse.
-Lorsqu'il termine, le joueur est félicité et est invité à recommencer l'aventure pour essayer de nouveau choix.
+from lib.Formatage import Formatage
+path = "./Fichier_Texte/essai_format.txt"
 
-Auteurs : 2TL1-5
-"""
-from lib.structures.scenario import Aventure
-
-
+# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    path_scenario = './rsc/scenarios/tutoriel.json'
-    aventure = Aventure(path_scenario)
-    aventure.run()
+    formate = Formatage()
+    formate.run(path)

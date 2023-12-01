@@ -1,0 +1,22 @@
+. Introduction
+Ceci est une introduction
+Si si je te jure
+
+.1. Choix 1
+Ceci est le premier choix
+Si si je te jure
+
+.2. Choix 2
+Ceci est le deuxième choix
+Si si je te jure
+
+.2.1. Sous-choix 1
+Ceci est le premier sous choix
+Si si je te l'assure
+
+.2.2. Sous-choix 2
+Ceci est le
+
+.3. Choix 3
+Ceci est le troisième choix
+Si si je te jure
