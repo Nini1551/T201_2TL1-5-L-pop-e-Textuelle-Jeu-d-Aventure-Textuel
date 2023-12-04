@@ -6,6 +6,7 @@ class Aventure:
     Représente une aventure jouée par un joueur.
     L'aventure suit les choix de celui-ci et se termine quand l'aventure est terminée (quand il n'y a plus de choix disponibles)
     """
+    # Balises des choix sous format JSON
     LIB_TAG = 'lib'
     TEXT_TAG = 'text'
     CHOICES_TAG = 'choices'
@@ -13,8 +14,8 @@ class Aventure:
     def __init__(self, scenario_path: str):
         """
         Initialise une aventure via un premier choix généralement appelé introduction
-        PRE : - scenario_path: le nom du fichier JSON du scénario joué par le joueur.
-               Le fichier JSON doit avoir un format précis. Il s'agit d'un dictionnaire représentant un choix.
+        PRE : - scenario_path : le nom du fichier JSON du scénario joué par le joueur.
+                Le fichier JSON doit avoir un format précis. Il s'agit d'un dictionnaire représentant un choix.
                 Il est composé de plusieurs attributs :
                 - lib : une chaîne de caractères donnant l'intitulé du choix en une ligne.
                 - text : le texte de narration lié au choix. Il doit terminer par un retour à la ligne
@@ -26,7 +27,7 @@ class Aventure:
         encoding = 'utf-8'
 
         with open(scenario_path, encoding=encoding) as scenario_file:
-            self.__main_choice = json.load(scenario_file)
+            self.main_choice = json.load(scenario_file)
 
     def __str__(self) -> str:
         """
@@ -50,7 +51,7 @@ class Aventure:
               - choices : une liste des sous-choix du choix
         POST : Renvoie la valeur assignée à une clé du choix actuel.
         """
-        return self.__main_choice[key]
+        return self.main_choice[key]
 
     def get_new_choice(self, choice_id: str) -> dict:
         """
@@ -84,7 +85,7 @@ class Aventure:
         PRE : -
         POST: Parcoure le scénario de l'aventure jusqu'à ce que le joueur ne puisse plus faire de choix.
         """
-        congratulations_message = "Félicitations ! Vous avez terminé l'aventure. \nN'hésitez pas à redémarrer le programme pour tester les autres choix disponibles !"
+        congratulations = "Félicitations ! Vous avez terminé l'aventure. \nN'hésitez pas à redémarrer le programme pour tester les autres choix disponibles !"
         error_value = -1
         error_message = "Insérez un nombre entier valide !"
         prompt = '>>> '
@@ -97,10 +98,10 @@ class Aventure:
                 answer = input(prompt)
 
                 try:
-                    self.__main_choice = self.get_new_choice(answer)
+                    self.main_choice = self.get_new_choice(answer)
                 except ValueError:
                     print(f"\n{error_message}")
                     answer = error_value
 
         print(self)
-        print(congratulations_message)
+        print(congratulations)

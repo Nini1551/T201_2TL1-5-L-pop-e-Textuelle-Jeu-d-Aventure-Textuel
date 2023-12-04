@@ -1,19 +1,19 @@
 {
   "lib": "Introduction menant au premier choix",
-  "text": "Bonjour à toi, apprenti mage ! Tu as été élu pour retrouver le grimoire magique englouti de NeverLand. Tu t’appelles… Ah non en fait, je vais te donner un nom, ce sera encore plus simple, tu t’appelleras donc Sacha. Tu vis donc dans ce joli royaume dans lequel règne rigolade et humour, mais aussi horreur... brrr, ça donne des frissons. Même si ta quête sera semée d’embûches, il te faudra être fort en faisant des choix (difficiles). Le premier s’offre déjà à toi. Te voici dans la tanière d’un Troll qui détenait le doudou de ta petite sœur jusqu’à ce que tu le réduises en charpie. Il te faut donc en sortir. \nPour commencer, veux-tu :\n",
+  "text": "Bonjour à toi, apprenti mage ! \nTu as été élu pour retrouver le grimoire magique englouti de NeverLand. \nTu t’appelles… Ah non en fait, je vais te donner un nom, ce sera encore plus simple, tu t’appelleras donc Sacha. \nTu vis donc dans ce joli royaume dans lequel règne rigolade et humour, mais aussi horreur... brrr, ça donne des frissons. \nMême si ta quête sera semée d’embûches, il te faudra être fort en faisant des choix (difficiles). \nLe premier s’offre déjà à toi. Te voici dans la tanière d’un Troll qui détenait le doudou de ta petite sœur jusqu’à ce que tu le réduises en charpie. \nIl te faut donc en sortir. \nPour commencer, veux-tu :\n",
   "choices": [
     {
       "lib": "Manger une cuisse du Troll que tu viens d’abattre sans pitié parce que se battre ça donne quand même faim ?",
-      "text": "Tu as bien mangé et tu es rassasié, mais désormais tu te sens lourd pour te lancer directement dans une quête longue et périlleuse. Tu vois alors à ta gauche non loin de ton gourdin une sorte de sac bien rempli. Ta curiosité irrésistible te fait avancer et ouvrir le sac tout en le saisissant. \nTu y vois plein de choses intéressantes telles qu’un livre poussiéreux, une sorte d’anneau et une clé.  \nQue prends tu ?\n",
+      "text": "Tu as bien mangé et tu es rassasié, mais désormais tu te sens lourd pour te lancer directement dans une quête longue et périlleuse. \nTu vois alors à ta gauche non loin de ton gourdin une sorte de sac bien rempli. \nTa curiosité irrésistible te fait avancer et ouvrir le sac tout en le saisissant. \nTu y vois plein de choses intéressantes telles qu’un livre poussiéreux, une sorte d’anneau et une clé.  \nQue prends tu ?\n",
       "choices": [
         {
           "lib": "Le livre poussiéreux car tu es maniaque et tu détestes voir de la poussière sur un objet précieux.",
-          "text": "Te voilà en possession d’un livre bien poussiéreux. Tu l’ouvres et te rends compte qu’il n’y a rien d’écrit dedans… à part en tout petit à la dernière page…  \nEh oui c’est un Death Note. \nTe voilà MOOOOORT !\n",
+          "text": "Te voilà en possession d’un livre bien poussiéreux. \nTu l’ouvres et te rends compte qu’il n’y a rien d’écrit dedans… à part en tout petit à la dernière page…  \nEh oui c’est un Death Note. \nTe voilà MOOOOORT !\n",
           "choices": []
         },
         {
           "lib": "L’anneau car tu le trouves joli et que tu as déjà 9 bagues, il t’en manque plus qu’une pour tes dix doigts.",
-          "text": "Oh tiens la jolie bague ! Elle est tellement grande qu’elle peut se mettre autour du bras comme un bracelet ou même autour du cou comme un collier. \nMais c’est qu’elle serre quand même fort… \n*Bruit d’étouffement* \nAu… se… cou… *crrric*\n",
+          "text": "Oh tiens la jolie bague ! \nElle est tellement grande qu’elle peut se mettre autour du bras comme un bracelet ou même autour du cou comme un collier. \nMais c’est qu’elle serre quand même fort… \n*Bruit d’étouffement* \nAu… se… cou… *crrric*\n",
           "choices": []
         },
         {
@@ -25,7 +25,7 @@
     },
     {
       "lib": "Sortir par la sortie principale parce que c’est ce que toute personne de censée et logique ferait ?",
-      "text": "Très bon choix ! Vous voilà donc sortis de cette tanière immonde qui servait de maison à ce Troll pas si méchant finalement. \n*Trop tard on ne sait plus revenir en arrière*. \nVous marchez vers la forêt car ta sœur ne se rappelle plus où elle a laissé les clés du carrosse de papa et maman.\n Sur votre chemin vous trouvez alors un champignon aussi grand qu’une maison, qui vous interpelle « Où allez-vous comme ça, larbins de Neverland ? » c’est alors que tu lui réponds :\n",
+      "text": "Très bon choix ! \nVous voilà donc sortis de cette tanière immonde qui servait de maison à ce Troll pas si méchant finalement. \n*Trop tard on ne sait plus revenir en arrière*. \nVous marchez vers la forêt car ta sœur ne se rappelle plus où elle a laissé les clés du carrosse de papa et maman.\n Sur votre chemin vous trouvez alors un champignon aussi grand qu’une maison. \nIl vous interpelle « Où allez-vous comme ça, larbins de Neverland ? » \nC’est alors que tu lui réponds :\n",
       "choices": [
         {
           "lib": "la vérité : « Je cherche à entrer en contact avec Ezekiel Le Grand, sur le dos d’un Troll était indiqué comme quoi il est ici ».",
@@ -46,7 +46,7 @@
     },
     {
       "lib": "Te téléporter à ta hutte parce qu’en soi tu fais ce que tu veux, tu es mage, la magie n’a pas de secret pour toi ?",
-      "text": "Ah là, on est bien dans son petit nid douillet ! À l’abri de tout danger et de toutes embrouilles. \nÀ peine rentré, tu décides de mettre ton nouveau trophée venant du combat avec le Troll, tu le poses sur la cheminée à côté de toutes les centaines d’autres. \nC’est alors que tu remarques que ton horloge magique n’est plus à l’heure… \nIntrigué, tu t’en approches et :\n",
+      "text": "Ah là, on est bien dans son petit nid douillet ! \nÀ l’abri de tout danger et de toutes embrouilles. \nÀ peine rentré, tu décides de mettre ton nouveau trophée venant du combat avec le Troll, tu le poses sur la cheminée à côté de toutes les centaines d’autres. \nC’est alors que tu remarques que ton horloge magique n’est plus à l’heure… \nIntrigué, tu t’en approches et :\n",
       "choices": [
         {
           "lib": "Trébuches sur le tapis mal aplati à cause de l’espace-temps ralenti.",
@@ -60,7 +60,7 @@
         },
         {
           "lib": "Te rends compte qu’il est juste l’heure d’aller dormir et que ton horloge JAMAIS ne se dérèglerait.",
-          "text": "Le temps se fige au moment où tu t’installes bien confortablement dans ton lit douillet… \nLe temps ne se remettra jamais en route…",
+          "text": "Le temps se fige au moment où tu t’installes bien confortablement dans ton lit douillet… \nLe temps ne se remettra jamais en route…\n",
           "choices": []
         }
       ]

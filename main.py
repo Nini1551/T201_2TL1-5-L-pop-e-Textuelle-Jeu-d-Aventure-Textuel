@@ -6,7 +6,6 @@ Lorsqu'il termine, le joueur est félicité et est invité à recommencer l'aven
 Auteurs : 2TL1-5
 """
 import argparse
-from lib.structures.gui import GuiApp
 from lib.structures.scenario import Aventure
 
 if __name__ == '__main__':
@@ -28,6 +27,10 @@ if __name__ == '__main__':
 
     aventure = Aventure(args.path_scenario)
     if args.gui:
+        from kivy.core.window import Window
+        from lib.structures.gui import GuiApp
+
+        Window.maximize()
         GuiApp(aventure).run()
     else:
         aventure.run()
