@@ -13,7 +13,7 @@ class Formatage:
         """
         Cette fonction ci ne renvoie rien, elle ne créer que des variables utiles et accessibles à toute la classe.
         PRE: -
-        POST: -
+        POST: Définis des variables avec des valeurs globale à toute la classe
         """
         self.section = []
         self.sections = []
@@ -69,7 +69,7 @@ class Formatage:
         """
         # Vérifier si la longueur des trois listes est la même
         if len(choices) != len(labels) or len(choices) != len(texts):
-            raise ValueError("Les listes doivent avoir la même longueur.")
+            raise ValueError("Les listes doivent avoir la même longueur. \nErreur lors de la lecture et de l'echantillonage")
 
         # Initialiser le dictionnaire
         result = {"lib": labels[0], "text": texts[0], "choices": []}
@@ -99,11 +99,15 @@ class Formatage:
         POST: Va passer en paramètre les 3 listes à la fonction 'creat_dict' et renvoie le message reçu par
                 cette fonction.
         """
+        # Division du fichier en lignes distinctes ajoutée à une liste
         for line_tamp in fl:
             line_tamp.strip()
             self.lines.append(line_tamp)
         self.lines.append("\n")
 
+        # Création d'une liste de sections contenant chaque section
+        # Chaque section est une liste constituée du numéro de choix et du libellé d'un coté
+        # et du texte y étant associé de l'autre.
         for s in self.lines:
             if s == '\n':
                 self.section.append(self.tamp)
@@ -118,6 +122,7 @@ class Formatage:
         self.sections.append(self.section)
         self.sections.pop()
 
+        #
         for i in self.sections:
             for j in i:
                 indice_espace = 0
@@ -163,6 +168,8 @@ class Formatage:
             print(f'Fichier introuvable : {file_path}')
         except IOError as e:
             print(f'Erreur IO : {e}')
+        except AttributeError:
+            print("Il y a des retours à la ligne en trop entre 2 blocs")
 
 
 """
@@ -175,8 +182,15 @@ Les fonctionnalités de formatage dont terminées et fonctionnelles.
 Il ne reste plu qu'à : 
 OK - trouver une solution pour implémenter ça dans un dictionnaire dans la structure que je veux
  - Gérer toutes les erreurs qui pourrait intervenir en fonction des cas
+        (OK- Si des retour a la ligne en trop entre des blocs
+          - Si un numéro qui manque entre des points d'un numéro de choix
+          - Si il manque un point à la fin d'un numéro de choix
+          - Si il manque un point au début d'un numéro de choix
+          - Si il manque un point dans un numéro de choix
+          - Si il y a un retour à la ligne en trop dans la partie texte
+        )
 OK - Faire toutes la doc pour l'utilisateur/joueur
 OK - Faire docstring pour chaque fonctions
- - Réécrire le code en beaucoup plus propre (Créer plus de petites fonctions, commenté, 
+OK - Réécrire le code en beaucoup plus propre (Créer plus de petites fonctions, commenté, 
     écrire tout le code en anglais (nom de variables et fonctions), retirer tout les prompts debugger,...)
 """
